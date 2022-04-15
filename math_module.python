@@ -1,0 +1,93 @@
+# print(1e0)                                #1*10^0=1*1=1.0
+# print(1e1)
+# print(1e2)
+# print(1e3)
+# print(2e0)
+# print(2e1)
+# print(2e2)
+# print(2e3)
+
+# print(2*3)                              #6
+# print(2**3)                              #8   (exponential)
+# print(2.6*5)                            #13.0
+
+# import math as m                  # where e=2.718281
+# print(m.exp(0))                    #1.0
+# print(m.exp(1))                    #2.718281
+# print(m.exp(2))                     # 7.389056
+# print(m.exp(3))                          # 20.0855
+
+import math
+# print(dir(math))
+# a=('acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'lcm', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'nextafter', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc', 'ulp')
+# print(len(a))
+
+# print(math.ceil(2.8))                    #3
+# print(math.ceil(4.0))                    #4
+# print(math.ceil(4.9))                     #5
+# print(math.ceil(-2.4))                    #-2
+# print(math.ceil(-5.0))                    #-5
+
+# print(math.floor(2.8))                    #2
+# print(math.floor(4.0))                    #4
+# print(math.floor(4.9))                     #4
+# print(math.floor(-2.4))                    #-3
+# print(math.floor(-5.0))                    #-6
+
+# print(math.exp(0))                           #1.0
+# print(math.exp(1))                           #2.718281
+# print(math.exp(2))                          # 7.389056
+# print(math.exp(3))                          # 20.0855
+
+# print(math.factorial(2))                    #2
+# print(math.factorial(3))                    #6
+# print(math.factorial(4))                    #24
+# print(math.factorial(5))                    #120
+# print(math.factorial(6))                     #720
+# print(math.factorial(7))                     #5040
+
+# print(math.isqrt(1))                           # sqrt of 1 to 3 answers given as 1
+# print(math.isqrt(2))                           
+# print(math.isqrt(3))
+# print(math.isqrt(4))                          #2
+# print(math.isqrt(5))                          #sqrt of 4 to 8 answer given as 2
+# print(math.isqrt(6))
+# print(math.isqrt(7))
+# print(math.isqrt(8))
+# print(math.isqrt(9))                          #3
+# print(math.isqrt(10))                         #sqrt of 3 to 15 answer given as 3
+# print(math.isqrt(11))
+# print(math.isqrt(12))
+
+# print(math.pow(3,3))                           #27.0          (3*3*3)
+# print(math.pow(8,3))                           #512.0          (8*8*8)
+# print(math.pow(6,4))                             #1296.0        (6*6*6*6)
+
+# n=(2,5,7,9.7,7.5)
+# print(math.fsum(n))                             #31.2
+# print(int(math.fsum(n)))                          #31
+
+# n=(2,5,7,9.7,7.5)
+# print(math.prod(n))                               #5092.5
+# print(int(math.prod(n)))                           #5092 
+
+# print(math.fabs(-8))                              #8.0
+
+# print(math.fmod(16,3))                              #1,0
+
+# print(math.trunc(2))                                  #2
+# print(math.trunc(3.8))                                 #3
+
+# print(math.cos(45))                            # it gives answer in radians 0.5253219888177297
+# print(math.sin(45))                                     # 0.8509035245341184
+# print(math.tan(45))                                     # 1.6197751905438615
+
+# print(math.gcd(12,36))                              #12
+# print(math.gcd(89,52))                             #one odd number another number is even answer as 1
+# print(math.gcd(8,6))                               #2
+# print(math.gcd(27,7))                                 #1
+
+# print(math.lcm(54,80))                      #2160
+# print(math.lcm(4,7))                      # 28 S
+# print(math.lcm(57,87))                     # 1653
+# print(math.lcm(54,80))                    # 2160
